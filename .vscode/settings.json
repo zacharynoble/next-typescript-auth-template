@@ -1,0 +1,17 @@
+{
+    "editor.detectIndentation": false,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "search.exclude": {
+        "package-lock.json": true
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": { "source.addMissingImports": "always", "source.fixAll.eslint": "always" },
+    "[json][jsonc][css][html][yaml]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.ignorePath": ".gitignore",
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
